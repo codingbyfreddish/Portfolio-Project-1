@@ -5,3 +5,68 @@
     padding: 0;
     border: none;
 }
+
+body {
+    font-family: Source-sans-pro, sans-serif;
+    font-weight: 300;
+    color: #252525;
+}
+
+/* headings and logo */
+
+h1, h2, #logo {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+    line-height: 75px;
+}
+
+/* navigation menu */
+
+#navbar {
+    font-size: 100%;
+    letter-spacing: 4px;
+    line-height: 75px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero section and image */
+
+#hero-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../images/hero_image.webp') no-repeat center center;
+}
