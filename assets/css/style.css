@@ -32,7 +32,7 @@ h1, h2, #logo {
 
 #navbar {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 75px;
 }
 
@@ -68,5 +68,44 @@ h1, h2, #logo {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background: url('../images/hero_image.webp') no-repeat center center;
+    background: url('../images/hero_image.webp') no-repeat center center; alt: "Padel blade racket hanging on the net";
 }
+
+
+/* about us section */
+
+#about-us-section {
+    height: 600px;
+    margin-top: 50px;
+}
+
+#about-us-logo {
+    font-size: 180%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 75px;
+}
+
+#about-us-left {
+    float: left;
+    padding-top: 30px;
+    width: 50%;
+    background-color: blue;
+}
+
+#about-us-right {
+    float: right;
+    padding-top: 30px;
+    width: 50%;
+    background-color: yellow;
+}
+
+#about-us-left > div {
+    font-size: 110%;
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    /* clear: both; */
+    margin-bottom: 10em;
+    padding-left: 5em;
+} 
