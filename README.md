@@ -1,6 +1,7 @@
 images from:
-hero - freepik.com
-
+hero - Image by HelloDavidPradoPerucha on Freepik
+right1 - Image by HelloDavidPradoPerucha on Freepik
+right2 - Image by HelloDavidPradoPerucha on Freepik
 
 
 
