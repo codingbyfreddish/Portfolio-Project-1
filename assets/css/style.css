@@ -48,11 +48,11 @@ h1, h2, #logo {
 }
 
 #navbar a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #252525;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #252525;
 }
 
 /* hero section and image */
@@ -81,7 +81,7 @@ h1, h2, #logo {
 
 #about-us-logo {
     font-size: 180%;
-    text-decoration: underline;
+    
     text-align: center;
     line-height: 75px;
 }
@@ -100,12 +100,23 @@ h1, h2, #logo {
     background-color: yellow;
 }
 
-#about-us-left > div {
+.who-what {
     font-size: 110%;
-    width: 50%;
+    width: 70%;
     float: left;
-    line-height: 20px;
-    /* clear: both; */
-    margin-bottom: 10em;
-    padding-left: 5em;
+    clear: both;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin: 50px;
+    padding-left: 50px;
 } 
+
+.who-what h2 {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.who-what li {
+    padding: 10px;
+    margin-left: 35px;
+}
