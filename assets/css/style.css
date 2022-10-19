@@ -90,7 +90,6 @@ h1, h2, #logo {
     float: left;
     padding-top: 30px;
     width: 50%;
-    background-color: aqua;
 }
 
 #about-us-right {
@@ -136,8 +135,8 @@ h1, h2, #logo {
     float: left;
     height: 600px;
     width: 50%;
-    background: url(../assets/images/mixedpadel.webp); no-repeat center center;
-    scale: 0.5;
+    position: relative;
+    background: url(../images/kids-image.webp); 
 }
 
 #schedule {
@@ -145,4 +144,25 @@ h1, h2, #logo {
     height: 600px;
     width: 50%;
     background-color: aquamarine;
+}
+
+#kids-cover-text {
+    /* font-size: 110%; */
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color: rgba(141, 157, 245, 0.5);
+
+    bottom: 30px;
+    right: 180px;
+
+    position: absolute;
 }
