@@ -97,8 +97,6 @@ h1, #logo {
     width: 50%;
     height: inherit;
     margin: auto;
-    /* margin-top: 25px;
-    margin-bottom: 180px; */
     background: url(../images/right_image2.webp);
     scale: 0.8;
     background-size: cover;
@@ -141,16 +139,9 @@ h1, #logo {
     background-size: cover;
 }
 
-#schedule {
-    float: right;
-    height: 600px;
-    width: 50%;
-    background: url(../images/padel-field.webp) no-repeat center center;
-    background-size: cover;
-}
+
 
 #kids-cover-text {
-    /* font-size: 110%; */
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -165,18 +156,76 @@ h1, #logo {
     position: absolute;
 }
 
+#schedule {
+    float: right;
+    height: 600px;
+    width: 50%;
+    position: relative;
+    background: url(../images/padel-field.webp) no-repeat center center;
+    background-size: cover;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+}
+
+
+
+
 #schedule > div {
     color: #fafafa;
-    background-color: rgba(54, 53, 53, 0.486);
+    background-color: rgba(54, 53, 53, 0.5);
     width: 50%;
-    height: 150px;
+    height: 300px;
     float: left;
     text-align: center;
-    /* border-right: 1px solid white;
-    box-sizing: border-box; */
 }
 
 #schedule h2 {
+    font-family: Montserrat, sans-serif;
     text-decoration: underline;
     letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+#schedule h3 {
+    line-height: 45px;
+}
+
+/* contact section */
+
+#contact {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+    background: url(../images/contact.webp) no-repeat center center; 
+    
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 250px;
+    background-color: #252525;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
 }
