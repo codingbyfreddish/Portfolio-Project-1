@@ -14,7 +14,7 @@ body {
 
 /* headings and logo */
 
-h1, h2, #logo {
+h1, #logo {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -153,19 +153,30 @@ h1, h2, #logo {
     /* font-size: 110%; */
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #fff;
-
+    letter-spacing: 2px;
+    color: #fafafa;
     width: 400px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 20px;
-
-    background-color: rgba(141, 157, 245, 0.5);
-
+    background-color: rgba(80, 105, 245, 0.5);
     bottom: 30px;
     right: 180px;
-
     position: absolute;
+}
+
+#schedule > div {
+    color: #fafafa;
+    background-color: rgba(54, 53, 53, 0.486);
+    width: 50%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    /* border-right: 1px solid white;
+    box-sizing: border-box; */
+}
+
+#schedule h2 {
+    text-decoration: underline;
+    letter-spacing: 4px;
 }
