@@ -77,11 +77,11 @@ h1, h2, #logo {
 #about-us-section {
     height: 600px;
     margin-top: 50px;
+    margin-bottom: 300px;
 }
 
 #about-us-logo {
     font-size: 180%;
-    
     text-align: center;
     line-height: 75px;
 }
@@ -90,14 +90,18 @@ h1, h2, #logo {
     float: left;
     padding-top: 30px;
     width: 50%;
-    background-color: blue;
+    background-color: aqua;
 }
 
 #about-us-right {
     float: right;
-    padding-top: 30px;
     width: 50%;
-    background-color: yellow;
+    height: inherit;
+    margin: auto;
+    /* margin-top: 25px;
+    margin-bottom: 180px; */
+    background: url(../images/right_image2.webp);
+    scale: 0.8;
 }
 
 .who-what {
@@ -121,14 +125,24 @@ h1, h2, #logo {
     margin-left: 35px;
 }
 
-/* about us images */
+/* kids and schedule section */
 
-#right-image1 {
-    
+#kids-schedule-section {
+    height: 800px;
+    margin: 10px;
 }
 
-#right-image2 {
-    
+#kids {
+    float: left;
+    height: 600px;
+    width: 50%;
+    background: url(../assets/images/mixedpadel.webp); no-repeat center center;
+    scale: 0.5;
 }
 
-
+#schedule {
+    float: right;
+    height: 600px;
+    width: 50%;
+    background-color: aquamarine;
+}
