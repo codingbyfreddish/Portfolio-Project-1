@@ -68,7 +68,7 @@ h1, h2, #logo {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background: url('../images/hero_image.webp') no-repeat center center; alt: "Padel blade racket hanging on the net";
+    background: url('../images/hero_image.webp') no-repeat center center; 
 }
 
 
@@ -101,6 +101,7 @@ h1, h2, #logo {
     margin-bottom: 180px; */
     background: url(../images/right_image2.webp);
     scale: 0.8;
+    background-size: cover;
 }
 
 .who-what {
@@ -136,14 +137,16 @@ h1, h2, #logo {
     height: 600px;
     width: 50%;
     position: relative;
-    background: url(../images/kids-image.webp); 
+    background: url(../images/kids-image.webp) no-repeat center center;
+    background-size: cover;
 }
 
 #schedule {
     float: right;
     height: 600px;
     width: 50%;
-    background-color: aquamarine;
+    background: url(../images/padel-field.webp) no-repeat center center;
+    background-size: cover;
 }
 
 #kids-cover-text {
