@@ -12,34 +12,37 @@ body {
     color: #252525;
 }
 
-/* headings and logo */
+/* logo and nav bar */ 
 
-h1, #logo {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.header-logo {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 300%;
+    letter-spacing: 0.3rem;
     color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 20px;
-    line-height: 75px;
+.header-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2rem;
 }
 
-/* navigation menu */
-
-#navbar {
-    font-size: 100%;
-    letter-spacing: 3px;
-    line-height: 75px;
-}
-
-#navbar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 50px;
+.header-navbar li {
+    font-size: 120%;
+    color: #252525;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 #navbar a {
@@ -55,7 +58,80 @@ h1, #logo {
     border-bottom: 1px solid #252525;
 }
 
-/* hero section and image */
+
+/* hero image */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* headings and logo 
+
+h1, #logo {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+    line-height: 75px;
+}
+
+navigation menu 
+
+.navbar {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #252525;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
+
+hero section and image 
 
 #hero-section {
     height: 600px;
@@ -72,7 +148,7 @@ h1, #logo {
 }
 
 
-/* about us section */
+about us section 
 
 #about-us-section {
     height: 600px;
@@ -123,7 +199,7 @@ h1, #logo {
     margin-left: 35px;
 }
 
-/* kids and schedule section */
+kids and schedule section 
 
 #kids-schedule-section {
     height: 800px;
@@ -191,7 +267,7 @@ h1, #logo {
     line-height: 45px;
 }
 
-/* contact section */
+contact section 
 
 
 .form-section {
@@ -253,7 +329,7 @@ h1, #logo {
 
 
 
-/* footer */
+footer 
 
 footer {
     height: 150px;
@@ -277,3 +353,4 @@ footer {
 }
 
 
+*/

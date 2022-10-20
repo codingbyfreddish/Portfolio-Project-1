@@ -12,33 +12,39 @@
 </head>
 <body>
 
-    <!-- nav bar and logo -->
+    <!-- logo and nav bar  -->
 
     <header>
-        <h1 id="logo">Padel Club</h1>
+        <div class="header-container">
+        <h1 class="header-logo">Padel Club</h1>
         <nav>
-            <ul id="navbar">
-                <li><a href="form-section">Contact</a></li>
-                <li><a href="#kids-schedule-section">Times</a></li>
-                <li><a href="#about-us-section">About Us</a></li>
+            <ul class="header-navbar">
                 <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#about-us-section">About Us</a></li>
+                <li><a href="#kids-schedule-section">Times</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     
     <!-- hero-image -->
 
-    <section id="hero-section">
-        <div id="hero-image"></div>
+    <section>
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="../Portfolio-Project-1/assets/images/hero_image.webp" alt="Padel blade racket hanging on the net">
+            </div>
+        </div>
     </section>
     
     <!-- about us section-->
     
-    <section id="about-us-section">
-        <h1 id="about-us-logo">About Us</h1>
+    <section >
+        <h1>About Us</h1>
         <!-- left side -->
-        <div id="about-us-left">
-            <div class="who-what">
+        <div>
+            <div>
             <h2>Who are We? <i class="fa-solid fa-table-tennis-paddle-ball"></i></h2>
             <p>Padel Club is not Ireland's largest padel hall, but we believe we can 
                 offer the country's most enjoyable padel experience. If you are looking 
@@ -46,7 +52,7 @@
                 knowledge and maximum service, then you have found the right place!</p>
             </div>
         <hr>
-            <div class="who-what">
+            <div>
             <h2>What we are about <i class="fa-solid fa-heart"></i></h2>
             <hr>
             <ul>
@@ -59,20 +65,20 @@
             </div>
         </div>
         <!-- right side -->
-        <div id="about-us-right"></div>
+        <div></div>
     </section>
     
     <!-- kids and schedule section -->
     
-    <section id="kids-schedule-section">
-        <div id="kids">
-            <div id="kids-cover-text">
+    <section>
+        <div >
+            <div>
                 <h3>Wednesdays are for kids!</h3>
                 <br>
                 <h3>Every Wednesday 17:00-20:00 kids between 8-17 years old gets free 30min lessions from our trainers.</h3>
             </div>
         </div>
-        <div id="schedule">
+        <div>
             <div>
                 <h2>Weekdays</h2>
                 <h3>17:00 - 23:00</h3>
@@ -94,7 +100,7 @@
 
     <!-- contact section -->
     
-    <section class="form-section">
+    <section>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Want more Information?</h2>
             <label for="fname">First Name</label>
@@ -125,11 +131,11 @@
   
     <!-- footer -->
         
-    <!-- <footer class="text-uppercase">
+    <!-- <footer>
 
 		<h3>Check us out:</h3>
 
-		<ul class="social-networks">
+		<ul>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
