@@ -98,7 +98,7 @@ h1, #logo {
     height: inherit;
     margin: auto; 
     background: url(../images/right_image2.webp);
-    scale: 0.8;
+    scale: 0.9;
     background-size: cover;
 }
 
@@ -195,11 +195,10 @@ h1, #logo {
 
 
 .form-section {
-    clear: right;
     background: url('../images/contact.webp');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
 }
 
 .signup-form {
@@ -208,7 +207,7 @@ h1, #logo {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    right: 10%;
     padding: 30px;
 }
 
@@ -228,7 +227,7 @@ h1, #logo {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #252525;
 }
 
 .join-button {
@@ -237,14 +236,14 @@ h1, #logo {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #252525;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #252525;
 }
 
 
@@ -257,7 +256,8 @@ h1, #logo {
 /* footer */
 
 footer {
-    height: 200px;
+    height: 150px;
+    position: relative;
     background-color: #252525;
 }
 
@@ -273,5 +273,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #fafafa;
+    color: #fff;
 }
+
+
