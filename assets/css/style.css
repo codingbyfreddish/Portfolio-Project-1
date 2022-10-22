@@ -93,16 +93,19 @@ body {
 
 .about-us-container {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 60rem;
-    justify-content: ;
 }
 
-.about-us-left {
-
+.about-1 {
+    flex-basis: 20%;
+    
 }
 
-.about-us-right {
-
+.about-2 {
+    background: url('../images/right_image1.webp');
+    scale: 0.5;
 }
 
 
