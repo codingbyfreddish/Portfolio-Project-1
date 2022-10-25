@@ -12,7 +12,9 @@ body {
     color: #252525;
 }
 
+
 /* logo and nav bar */ 
+
 
 .header-container {
     display: flex;
@@ -62,6 +64,7 @@ body {
 
 /* hero image */
 
+
 .hero-container {
     display: flex;
     min-height: 60rem;
@@ -77,7 +80,9 @@ body {
    background: url('../images/hero_image.webp') no-repeat;
 }
 
+
 /* about us section */
+
 
 .about-us-header {
     font-family: Montserrat, sans-serif;
@@ -113,8 +118,6 @@ body {
     
 }
 
-
-
 .about-2 {
     margin: 2rem; 
     padding: 2rem;
@@ -145,6 +148,7 @@ body {
 
 
 /* kids and schedule section */
+
 
 .kids-times-container {
     height: 60rem;
@@ -222,263 +226,22 @@ body {
 
 
 .contact-item {
-
-}
-
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height:25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #252525;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #252525;
-    color: #fafafa;
-    display: block;
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #252525;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* headings and logo 
-
-h1, #logo {
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #252525;
-}
-
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 20px;
-    line-height: 75px;
-}
-
-navigation menu 
-
-.navbar {
+    height: 60rem;
+    margin: 0.3rem;
     display: flex;
-    
-    margin: 0;
-    padding: 0;
-
-    list-style-type: none;
+    flex-direction: row-reverse;
 }
 
-#navbar a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#navbar a:hover {
-    border-bottom: 1px solid #252525;
-}
-
-.active {
-    border-bottom: 1px solid #252525;
-}
-
-hero section and image 
-
-#hero-section {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    background: url('../images/hero_image.webp') no-repeat center center; 
-}
-
-
-about us section 
-
-#about-us-section {
-    height: 600px;
-    margin-top: 50px;
-    margin-bottom: 300px;
-}
-
-#about-us-logo {
-    font-size: 180%;
-    text-align: center;
-    line-height: 75px;
-}
-
-#about-us-left {
-    float: left;
-    padding-top: 30px;
-    width: 50%;
-}
-
-#about-us-right {
-    float: right;
-    width: 50%;
-    height: inherit;
-    margin: auto; 
-    background: url(../images/right_image2.webp);
-    scale: 0.9;
-    background-size: cover;
-}
-
-.who-what {
-    font-size: 110%;
-    width: 70%;
-    float: left;
-    clear: both;
-    line-height: 25px;
-    letter-spacing: 2px;
-    margin: 50px;
-    padding-left: 50px;
-} 
-
-.who-what h2 {
-    text-decoration: underline;
-    margin: 10px;
-}
-
-.who-what li {
-    padding: 10px;
-    margin-left: 35px;
-}
-
-kids and schedule section 
-
-#kids-schedule-section {
-    height: 800px;
-    margin: 10px;
-}
-
-#kids {
-    float: left;
-    height: 600px;
-    width: 50%;
-    position: relative;
-    background: url(../images/kids-image.webp) no-repeat center center;
-    background-size: cover;
-}
-
-
-
-#kids-cover-text {
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fafafa;
-    width: 400px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 20px;
-    background-color: rgba(80, 105, 245, 0.5);
-    bottom: 30px;
-    right: 180px;
-    position: absolute;
-}
-
-#schedule {
-    float: right;
-    height: 600px;
-    width: 50%;
-    position: relative;
-    background: url(../images/padel-field.webp) no-repeat center center;
-    background-size: cover;
-    display: flex;  
-    justify-content: center;  
-    align-items: center; 
-}
-
-
-
-
-#schedule > div {
-    color: #fafafa;
-    background-color: rgba(54, 53, 53, 0.5);
-    width: 50%;
-    height: 300px;
-    float: left;
-    text-align: center;
-}
-
-#schedule h2 {
-    font-family: Montserrat, sans-serif;
-    text-decoration: underline;
-    letter-spacing: 4px;
-    margin-bottom: 25px;
-}
-
-#schedule h3 {
-    line-height: 45px;
-}
-
-contact section 
-
-
-.form-section {
-    background: url('../images/contact.webp');
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-}
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    align-self: flex-end;
+    margin: 10rem;
+    max-width: 25%;
+    padding: 3rem;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 30px;
+    
+    
 }
 
 .signup-form > h2 {
@@ -515,6 +278,17 @@ contact section
     background-color: #fafafa;
     color: #252525;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -547,4 +321,3 @@ footer {
 }
 
 
-*/
