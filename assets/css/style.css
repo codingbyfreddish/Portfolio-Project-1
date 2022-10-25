@@ -84,7 +84,7 @@ body {
 /* about us section */
 
 
-.about-us-header {
+.kids-times-header {
     font-family: Montserrat, sans-serif;
     font-size: 200%;
     text-align: center;
@@ -125,7 +125,7 @@ body {
     flex-basis: 33%;
     background: url('../images/right_image2.webp') no-repeat center center;
     background-size: cover;
-    border: 1px solid #252525;
+    border: 2px solid #252525;
 }
 
 .about-3 {
@@ -150,6 +150,18 @@ body {
 /* kids and schedule section */
 
 
+.contact-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem;
+    padding: 5rem 0;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    color: #252525;
+}
+
 .kids-times-container {
     height: 60rem;
     margin: 0.3rem;
@@ -173,7 +185,7 @@ body {
     height: 20rem;
     margin: 5rem 4rem;
     font-size: 110%;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
     letter-spacing: .3ch;
     color: #fafafa;
     padding: 1.3rem;
@@ -182,7 +194,7 @@ body {
 
 .kids-item h3 {
     margin: 1rem;
-    padding-top: 1rem;
+    padding-top: .8rem;
 }
 
 .times-container {
@@ -212,6 +224,20 @@ body {
     text-decoration: underline;
     letter-spacing: .2rem;
     margin-bottom: 2px;
+}
+
+
+/* contact section */
+
+.about-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    color: #252525;
 }
 
 
