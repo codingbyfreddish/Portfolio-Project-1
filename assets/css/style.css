@@ -190,15 +190,25 @@ body {
     background-size: cover;
 }
 
-.times-item {
+.times-items {
     color: #fafafa;
     background-color: rgba(54, 53, 53, 0.5);
     width: 50%;
-    height: 14rem;
-    
+    height: auto;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 110%;
+    line-height: 3rem;
+    letter-spacing: .3ch;
     text-align: center;
 }
 
+.times-items h2 {
+    font-family: Montserrat, sans-serif;
+    text-decoration: underline;
+    letter-spacing: .2rem;
+    margin-bottom: 2px;
+}
 
 
 
