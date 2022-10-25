@@ -103,7 +103,7 @@ body {
     padding: 4rem 2rem;
     height: 20rem;
     flex-basis: 33%;
-    font-size: 110%;
+    font-size: 120%;
     line-height: 2rem;
 }
 
@@ -130,7 +130,7 @@ body {
     padding: 4rem 2rem;
     height: 20rem;
     flex-basis: 33%;
-    font-size: 110%;
+    font-size: 120%;
     line-height: 2rem;
 }
 
@@ -144,8 +144,60 @@ body {
 }   
 
 
+/* kids and schedule section */
 
+.kids-times-container {
+    height: 60rem;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: row;
+}
 
+.kids-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    background: url('../images/kids-image.webp') no-repeat center;
+    background-size: cover;
+}
+
+.kids-item {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    width: 20rem;
+    height: 20rem;
+    margin: 5rem 4rem;
+    font-size: 110%;
+    line-height: 1.4rem;
+    letter-spacing: .3ch;
+    color: #fafafa;
+    padding: 1.3rem;
+    background-color: rgba(80, 105, 245, 0.5); 
+}
+
+.kids-item h3 {
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.times-container {
+    width: 50%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+    background: url('../images/padel-field.webp') no-repeat center;
+    background-size: cover;
+}
+
+.times-item {
+    color: #fafafa;
+    background-color: rgba(54, 53, 53, 0.5);
+    width: 50%;
+    height: 14rem;
+    
+    text-align: center;
+}
 
 
 
