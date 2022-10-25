@@ -91,29 +91,64 @@ body {
     color: #252525;
 }
 
-.about-us-container {
+.about-container {
     min-height: 60rem;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
     
     border: 1px solid red;
 }
 
 .about-1 {
+    margin: 2rem ; 
+    padding: 4rem 2rem;
+    height: 20rem;
+    flex-basis: 33%;
+    font-size: 110%;
+    line-height: 2rem;
+    
+    
+
+   border: 1px solid red;
+}
+
+.about-1, .about-3 h2 {
+    text-decoration: underline;
+    margin: 2rem;
+    padding-bottom: 1rem;
     
 }
 
 
 
-.about-2 {}
+.about-2 {
+   margin: 2rem; 
+   padding: 2rem;
+   height: 21rem;
+   flex-basis: 33%;
+
+   background: url('../images/right_image2.webp') no-repeat center center;
+   background-size: cover;
+
+   border: 1px solid red;
+}
 
 
-.about-3 {}
+.about-3 {
+    margin: 2rem ; 
+    padding: 4rem 2rem;
+    height: 20rem;
+    flex-basis: 33%;
+    font-size: 110%;
+    line-height: 2rem;
+    
 
+    border: 1px solid red;
+}
 
-.about-4 {}
 
 
 
