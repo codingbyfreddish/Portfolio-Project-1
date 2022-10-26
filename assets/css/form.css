@@ -10,24 +10,32 @@ body {
     font-family: Source-sans-pro, sans-serif;
     font-weight: 300;
     color: #252525;
+    background: url('../images/contact.webp') no-repeat center;
+    background-size: cover;
 }
 
 
-/* navigation bar */ 
+/* logo and nav bar */ 
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: .7rem;
+}
+
 
 
 .header-navbar {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     gap: 1rem;
-    margin-left: 30rem;
-    padding: 1rem;
+    margin-left: 2rem;
+    padding: 2rem;
     list-style: none;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .header-navbar li {
-    align-items: flex-end;
     font-size: 120%;
     color: #252525;
     flex-grow: 1;
@@ -55,8 +63,6 @@ body {
     margin: 0.3rem;
     display: flex;
     flex-direction: row;
-    background: url('../images/contact.webp') no-repeat center;
-    background-size: cover;
 }
 
 
@@ -112,4 +118,32 @@ body {
 .join-button:hover {
     background-color: #fafafa;
     color: #252525;
+}
+
+
+/* footer */
+
+
+footer {
+    height: 5rem;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 2%;
+    padding: 5%;
+    color: #252525;
+}
+
+footer > p {
+    text-align: center;
 }
