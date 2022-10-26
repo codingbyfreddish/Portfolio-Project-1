@@ -76,8 +76,8 @@ body {
 
 .signup-form {
     align-self: flex-end;
-    margin: 10rem;
-    max-width: 25%;
+    margin: 2rem;
+    max-width: 35%;
     padding: 3rem;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
