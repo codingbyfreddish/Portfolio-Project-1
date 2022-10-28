@@ -73,7 +73,7 @@ body {
 
 .hero-image {
    height: 50rem;
-   flex-basis: 85%;
+   width: 85%;
    margin: 2rem 0 0 3rem;
    padding: 3rem 0;
    align-items: center;
@@ -107,7 +107,7 @@ body {
     margin: 2rem ; 
     padding: 4rem 2rem;
     height: 20rem;
-    flex-basis: 33%;
+    width: 33%;
     font-size: 120%;
     line-height: 2rem;
 }
@@ -119,11 +119,11 @@ body {
 }
 
 .about-2 {
-    margin: 2rem; 
-    padding: 2rem;
-    height: 21rem;
-    flex-basis: 33%;
-    background: url('../images/right_image2.webp') no-repeat center center;
+    margin: 1rem; 
+    padding: 5rem;
+    height: 20rem;
+    width: 33%;
+    background: url('../images/right_image2.webp') no-repeat center;
     background-size: cover;
     border: 2px solid #252525;
 }
@@ -132,7 +132,7 @@ body {
     margin: 2rem ; 
     padding: 4rem 2rem;
     height: 20rem;
-    flex-basis: 33%;
+    width: 33%;
     font-size: 120%;
     line-height: 2rem;
 }
@@ -174,7 +174,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    background: url('../images/kids-image.webp') no-repeat center;
+    background: url('../images/kids-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -260,14 +260,29 @@ footer > p {
     .about-container {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    gap: 1;
-    margin: 4rem .1 rem;
+    justify-content: space-between;
+    margin: 3em 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-1,.about-2,.about-3 {
+        height: 25%;
+        
     }
 }
 
 @media screen and (max-width: 800px) {
     .about-2 {
-    display: flex;
-    
+        margin: 2em 0;
+        padding: 10em;
     }
+}
+
+
+
+
+
+
+
+
