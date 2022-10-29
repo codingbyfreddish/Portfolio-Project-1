@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,9 +13,7 @@ body {
     color: #252525;
 }
 
-
 /* logo and nav bar */ 
-
 
 .header-container {
     display: flex;
@@ -25,8 +24,8 @@ body {
 .header-logo {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    font-size: 280%;
-    letter-spacing: 0.3rem;
+    font-size: 3rem;
+    letter-spacing: .2ch;
     padding: 1rem;
     color: #252525;
     text-decoration: underline;
@@ -35,7 +34,6 @@ body {
 .header-navbar {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     margin-left: 2rem;
     padding: 2rem;
     list-style: none;
@@ -44,8 +42,8 @@ body {
 .header-navbar li {
     font-size: 120%;
     color: #252525;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1 1 0 auto;
+    padding: 0 1rem;
 }
 
 .header-navbar a {
@@ -61,9 +59,7 @@ body {
     border-bottom: 1px solid #252525;
 }
 
-
 /* hero image */
-
 
 .hero-container {
     display: flex;
@@ -82,95 +78,80 @@ body {
 
 /* about us section */
 
-
 .about-header {
     font-family: Montserrat, sans-serif;
-    font-size: 200%;
+    font-size: 2.8rem;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    margin: 3rem;
+    margin: 2rem;
     letter-spacing: 0.1rem;
     text-decoration: underline;
     color: #252525;
 }
 
 .about-container {
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 6rem 0.2;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
 }
-
-.about-1 {
+    
+.about-sides {
     margin: 2rem ; 
     padding: 4rem 2rem;
-    height: 20rem;
-    width: 33%;
-    font-size: 120%;
-    line-height: 2rem;
+    min-height: 20rem;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
 }
 
-.about-1 h2 {
+.about-sides h2 {
     text-decoration: underline;
     margin: 1rem 0;
-    
 }
 
-.about-2 {
+.about-sides li {
+    line-height: 3.8rem;
+    list-style-type: none;
+}
+
+.about-middle {
     margin: 1rem; 
     padding-top: 8rem;
-    height: 20rem;
-    width: 45%;
+    height: 25rem;
+    width: 100%;
     background: url('../images/right_image2.webp') no-repeat center;
     background-size: cover;
     border: 2px solid #252525;
 }
 
-.about-3 {
-    margin: 2rem ; 
-    padding: 4rem 2rem;
-    height: 20rem;
-    width: 33%;
-    font-size: 120%;
-    line-height: 2rem;
-}
-
-.about-3 h2 {
-    text-decoration: underline;
-    margin: 1rem 0;
-}
-
-.about-3 li {
-    padding: 0.5rem;
-}   
-
-
 /* kids and schedule section */
-
 
 .kids-times-header {
     font-family: Montserrat, sans-serif;
-    font-size: 200%;
+    font-size: 2.8rem;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    margin: 3rem;
-    padding: 5rem 0;
+    margin: 2rem;
     letter-spacing: 0.1rem;
     text-decoration: underline;
     color: #252525;
 }
 
 .kids-times-container {
-    height: 65rem;
-    margin: 0.3rem;
+    min-height: 80vh;
+    margin: 6rem 0.2;
     display: flex;
     flex-direction: row;
+    border: 2px solid #252525;
 }
 
 .kids-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -192,51 +173,53 @@ body {
     background-color: rgba(80, 105, 245, 0.5); 
 }
 
-.kids-item h3 {
-    margin: 1rem;
-    padding-top: .8rem;
+.kids-item * {
+    margin: .8rem;
+    padding: .4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
-.kids-item p {
-    text:;
-}
 
 .times-container {
-    width: 50%;
-    display: flex;  
-      
-    align-items: center;
+    width: 100%;
+    display: flex;
     background: url('../images/padel-field.webp') no-repeat center;
     background-size:  cover;
 }
 
 .times-items {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-items: center; 
+    
+    width: 100%;
+    min-height: 30rem;
+    padding: 3rem;
     color: #fafafa;
     background-color: rgba(54, 53, 53, 0.5);
-    width: 50%;
-    height: auto;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 110%;
-    line-height: 3rem;
-    letter-spacing: .3ch;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    letter-spacing: .1rem;
     text-align: center;
 }
 
 .times-items h2 {
     font-family: Montserrat, sans-serif;
     text-decoration: underline;
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
     margin-bottom: 2px;
 }
 
-
 /* footer */
 
-
 footer {
-    height: 8rem;
-    border: 2px solid #252525;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    border: 1px solid #252525;
 }
 
 .social-networks {
@@ -248,9 +231,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 2%;
-    padding: 5%;
+    font-size: 4rem;
+    margin: 1rem;
+    padding: .2rem 2rem;
     color: #252525;
 }
 
@@ -262,45 +245,27 @@ footer div > p {
 /* media queries */
 
 
-/* for  1200px (desktops) */
+/* for  1200px (desktops) 
 @media screen and (max-width: 1200px) {
     
-}
+} */
 
 
 /* for 992px (laptops) */
-@media screen and (max-width: 992px) {
-    
-    
-    .about-header {
-        margin: 1rem;
-        font-size: 280%;
-    }
-    
-    .about-container {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
-        overflow: hidden;
-        margin: 3em 0;
-        }
+@media screen and (max-width: 992px) {}
 
 
-    .about-3 h2 {
-        margin: 1rem 0 0 0;
-}
 
-
-/* for 768px (tablets) */
+/* for 768px (tablets) 
 @media screen and (max-width: 768px) {
     
-}
+} */
 
 
-/* for 576px (mobile)*/
+/* for 576px (mobile)
 @media screen and (max-width: 576px) {
     
-}
+} */
 
 
 
