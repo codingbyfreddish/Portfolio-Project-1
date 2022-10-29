@@ -72,10 +72,10 @@ body {
 }
 
 .hero-image {
-   height: 50rem;
-   width: 85%;
-   margin: 2rem 0 0 3rem;
-   padding: 3rem 0;
+   height: 0 auto;
+   width: 85vw;
+   margin: 2rem 0 0 2rem;
+   padding: 1.5rem 0;
    align-items: center;
    background: url('../images/hero_image.webp') no-repeat;
 }
@@ -114,15 +114,15 @@ body {
 
 .about-1 h2 {
     text-decoration: underline;
-    margin: 2rem;
+    margin: 1rem 0;
     
 }
 
 .about-2 {
     margin: 1rem; 
-    padding: 5rem;
+    padding-top: 8rem;
     height: 20rem;
-    width: 33%;
+    width: 45%;
     background: url('../images/right_image2.webp') no-repeat center;
     background-size: cover;
     border: 2px solid #252525;
@@ -139,7 +139,7 @@ body {
 
 .about-3 h2 {
     text-decoration: underline;
-    margin: 2rem;
+    margin: 1rem 0;
 }
 
 .about-3 li {
@@ -175,7 +175,7 @@ body {
     flex-direction: row-reverse;
     align-items: flex-end;
     background: url('../images/kids-image.webp') no-repeat center center;
-    background-size: cover;
+    background-size: cover ;
 }
 
 .kids-item {
@@ -204,10 +204,10 @@ body {
 .times-container {
     width: 50%;
     display: flex;  
-    justify-content: center;  
-    align-items: center; 
+      
+    align-items: center;
     background: url('../images/padel-field.webp') no-repeat center;
-    background-size: cover;
+    background-size:  cover;
 }
 
 .times-items {
@@ -236,6 +236,7 @@ body {
 
 footer {
     height: 8rem;
+    border: 2px solid #252525;
 }
 
 .social-networks {
@@ -253,13 +254,93 @@ footer {
     color: #252525;
 }
 
-footer > p {
+footer div > p {
     text-align: center;
 }
 
 
 /* media queries */
 
+
+/* for  1200px (desktops) */
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+/* for 992px (laptops) */
+@media screen and (max-width: 992px) {
+    
+    
+    .about-header {
+        margin: 1rem;
+        font-size: 280%;
+    }
+    
+    .about-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        margin: 3em 0;
+        }
+
+
+    .about-3 h2 {
+        margin: 1rem 0 0 0;
+}
+
+
+/* for 768px (tablets) */
+@media screen and (max-width: 768px) {
+    
+}
+
+
+/* for 576px (mobile)*/
+@media screen and (max-width: 576px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @media screen and (max-width: 800px) {
     .about-container {
     display: flex;
