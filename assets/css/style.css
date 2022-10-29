@@ -163,7 +163,7 @@ body {
 }
 
 .kids-times-container {
-    height: 60rem;
+    height: 65rem;
     margin: 0.3rem;
     display: flex;
     flex-direction: row;
@@ -261,6 +261,7 @@ footer > p {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    overflow: hidden;
     margin: 3em 0;
     }
 }
@@ -274,7 +275,7 @@ footer > p {
 
 @media screen and (max-width: 800px) {
     .about-2 {
-        margin: 2em 0;
+        margin: 2em 2px;
         padding: 10em;
     }
 }
@@ -286,3 +287,36 @@ footer > p {
 
 
 
+
+
+@media screen and (max-width: 800px) {
+    .kids-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 3em 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kids-item {
+    display: flex;
+    
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .times-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 3em 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .times-items {
+    display: flex;
+    
+    }
+}
