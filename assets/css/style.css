@@ -246,7 +246,9 @@ footer div > p {
 
 /* for a max width of 1200px (desktop) */
 @media screen and (max-width: 1200px) {
-    
+    .hero-container {
+        min-height: 45rem;
+    }
 }
 
 
@@ -254,9 +256,7 @@ footer div > p {
 @media screen and (max-width: 992px) {
     .hero-image {
         margin: 0 auto;
-        padding: 0;
-        
-        
+        padding: 0;  
     }
 
     .about-container {
@@ -276,8 +276,10 @@ footer div > p {
 }
 
 /* for a max width of 768px (tablets) */
-@media screen and (max-width: 576px) {
-
+@media screen and (max-width: 768px) {
+    .hero-container {
+        background: url('../images/');
+    }
 }
 
 
