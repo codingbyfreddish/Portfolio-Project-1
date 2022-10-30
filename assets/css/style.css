@@ -34,8 +34,8 @@ body {
 .header-navbar {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2rem;
-    padding: 2rem;
+    margin-left: 3rem;
+    padding: 1.5rem;
     list-style: none;
 }
 
@@ -73,7 +73,8 @@ body {
    margin: 2rem 0 0 2rem;
    padding: 1.5rem 0;
    align-items: center;
-   background: url('../images/hero_image.webp') no-repeat;
+   background: url('../images/hero_image.webp') no-repeat center;
+   background-size: contain;
 }
 
 /* about us section */
@@ -104,7 +105,8 @@ body {
     padding: 4rem 2rem;
     min-height: 20rem;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
     line-height: 2.8rem;
 }
 
@@ -114,12 +116,12 @@ body {
 }
 
 .about-sides li {
-    line-height: 3.8rem;
+    line-height: 3.5rem;
     list-style-type: none;
 }
 
 .about-middle {
-    margin: 1rem; 
+    margin: auto; 
     padding-top: 8rem;
     height: 25rem;
     width: 100%;
@@ -197,7 +199,7 @@ body {
     
     width: 100%;
     min-height: 30rem;
-    padding: 3rem;
+    padding: 1.5rem;
     color: #fafafa;
     background-color: rgba(54, 53, 53, 0.5);
     font-size: 1.5rem;
@@ -240,24 +242,28 @@ footer div > p {
     text-align: center;
 }
 
-
 /* media queries */
 
-
-/* for  1200px (desktops) 
+/* for a max width of 1200px (desktop) */
 @media screen and (max-width: 1200px) {
     
-} */
+}
 
 
-/* for a max width of 992px (laptops and tablets) */
+/* for a max width of 992px (laptops) */
 @media screen and (max-width: 992px) {
+    .hero-image {
+        margin: 0 auto;
+        padding: 0;
+        
+        
+    }
+
     .about-container {
-        display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
         justify-content: space-between;
         overflow: hidden;
-        margin: 3rem .3rem;
+        margin: 0 0.3rem;
         }
     
     .kids-times-container {
@@ -269,109 +275,38 @@ footer div > p {
     }
 }
 
+/* for a max width of 768px (tablets) */
+@media screen and (max-width: 576px) {
 
-
-/* for 768px (tablets) 
-@media screen and (max-width: 768px) {
-    
-} */
+}
 
 
 /* for a max width of 576px (mobile) */
 @media screen and (max-width: 576px) {
-    
+   .hero-container {
+        min-height: 40rem;
+        margin: 0 auto;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media screen and (max-width: 800px) {
-    .about-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    overflow: hidden;
-    margin: 3em 0;
-    }
+.hero-image {
+    margin: 0 auto;
+    padding: 0;
+    background-size: auto 70%;
 }
 
-@media screen and (max-width: 800px) {
-    .about-1,.about-2,.about-3 {
-        height: 25%;
-        
-    }
-}
+.about-sides {
+    margin: 2rem auto;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2.8rem;
+  }
 
-@media screen and (max-width: 800px) {
-    .about-2 {
-        margin: 2em 2px;
-        padding: 10em;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 800px) {
-    .kids-times-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    margin: 1rem 1rem;
-    }
-}
-
-
-
-
-@media screen and (max-width: 800px) {
-    .kids-container {
-    display: flex;
+  .kids-container {
     flex-direction: column;
-    
-    margin: 1rem 1rem;
-    }
 }
 
-@media screen and (max-width: 800px) {
-    .kids-item {
-    display: flex;
-    flex-flow: column wrap;
-    flex-shrink: 1;
+.times-container {
+    flex-direction: column;
+}
+
+}
