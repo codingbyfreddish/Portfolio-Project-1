@@ -14,17 +14,13 @@ body {
     background-size: cover;
 }
 
-
 /* nav bar */ 
-
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: .7rem;
 }
-
-
 
 .header-navbar {
     display: flex;
@@ -55,16 +51,14 @@ body {
     border-bottom: 1px solid #252525;
 }
 
-
 /* contact sectiom */
 
 .contact-container {
-    height: 100vh;
+    height: 100%;
     margin: 0.3rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
-
 
 .contact-item {
     height: 60rem;
@@ -73,16 +67,12 @@ body {
     flex-direction: row-reverse;
 }
 
-
 .signup-form {
     align-self: flex-end;
-    margin: 2rem;
-    max-width: 35%;
-    padding: 3rem;
+     max-width: 35%;
+    margin: 2rem;padding: 4rem;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    
-    
+    background-color: rgba(60, 60, 60, 0.6);  
 }
 
 .signup-form > h2 {
@@ -101,7 +91,7 @@ body {
 }
 
 .text-input:hover {
-    border-color: #252525;
+    border: 2px solid #252525;
 }
 
 .join-button {
@@ -123,10 +113,11 @@ body {
 
 /* footer */
 
-
 footer {
-    
-    background-color: rgba(255, 255, 255, .3);
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    padding-top: 2%;
 }
 
 .social-networks {
@@ -138,12 +129,27 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 2%;
-    padding: 4%;
+    font-size: 4rem;
+    margin: 1rem;
+    padding: .2rem 2rem;
     color: #252525;
 }
 
-footer > div > p {
+footer div > p {
     text-align: center;
+}
+
+/* media queries */ 
+
+/* for a max width of 768px (tablets and mobile) */
+@media screen and (max-width: 768px) {
+    .contact-item {
+        flex-direction: row;
+    }
+    
+    .signup-form {
+        min-width: 70%;
+        padding: 2rem;
+        margin: 0;
+    }
 }
