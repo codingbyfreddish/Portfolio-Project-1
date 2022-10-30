@@ -219,7 +219,6 @@ footer {
     height: 10%;
     width: 100%;
     position: absolute;
-    border: 1px solid #252525;
 }
 
 .social-networks {
@@ -251,8 +250,24 @@ footer div > p {
 } */
 
 
-/* for 992px (laptops) */
-@media screen and (max-width: 992px) {}
+/* for a max width of 992px (laptops and tablets) */
+@media screen and (max-width: 992px) {
+    .about-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        margin: 3rem .3rem;
+        }
+    
+    .kids-times-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        margin: 2rem .3rem;
+    }
+}
 
 
 
@@ -262,10 +277,10 @@ footer div > p {
 } */
 
 
-/* for 576px (mobile)
+/* for a max width of 576px (mobile) */
 @media screen and (max-width: 576px) {
     
-} */
+} 
 
 
 
@@ -360,21 +375,3 @@ footer div > p {
     display: flex;
     flex-flow: column wrap;
     flex-shrink: 1;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .times-container {
-    display: flex;
-    /* flex-direction: column nowrap;
-    justify-content: space-between; */
-    margin: 1em 0;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .times-items {
-    display: flex;
-    
-    }
-}
