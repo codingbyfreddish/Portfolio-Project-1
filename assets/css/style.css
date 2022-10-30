@@ -42,7 +42,7 @@ body {
 .header-navbar li {
     font-size: 120%;
     color: #252525;
-    flex: 1 1 0 auto;
+    flex: 1 1 0;
     padding: 0 1rem;
 }
 
@@ -68,13 +68,12 @@ body {
 }
 
 .hero-image {
-   height: 0 auto;
-   width: 85vw;
-   margin: 2rem 0 0 2rem;
-   padding: 1.5rem 0;
-   align-items: center;
-   background: url('../images/hero-image.webp') no-repeat center;
-   background-size: contain;
+    width: 85vw;
+    margin: 2rem 0 0 2rem;
+    padding: 1.5rem 0;
+    align-items: center;
+    background: url('../images/hero-image.webp') no-repeat center;
+    background-size: contain;
 }
 
 /* about us section */
@@ -93,7 +92,7 @@ body {
 
 .about-container {
     min-height: 80vh;
-    margin: 6rem 0.2;
+    margin: 6rem 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -146,7 +145,7 @@ body {
 
 .kids-times-container {
     min-height: 80vh;
-    margin: 6rem 0.2;
+    margin: 6rem 0.2rem;
     display: flex;
     flex-direction: row;
     border: 2px solid #252525;
@@ -288,27 +287,30 @@ footer div > p {
    .hero-container {
         min-height: 40rem;
         margin: 0 auto;
-} 
+    } 
 
 .hero-image {
     margin: 0 auto;
     padding: 0;
     background-size: auto 70%;
-}
+    }
 
 .about-sides {
     margin: 2rem auto;
     font-size: 1rem;
     font-weight: normal;
     line-height: 2.8rem;
-  }
+    }
 
   .kids-container {
     flex-direction: column;
-}
+    }
 
 .times-container {
     flex-direction: column;
-}
+    }
 
+.social-networks i {
+    padding: .2rem 1rem;
+    }
 }

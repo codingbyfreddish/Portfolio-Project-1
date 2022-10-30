@@ -152,4 +152,8 @@ footer div > p {
         padding: 2rem;
         margin: 0;
     }
+
+    .social-networks i {
+        padding: .2rem 1rem;
+    }
 }
