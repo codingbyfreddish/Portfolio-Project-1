@@ -28,7 +28,10 @@ that makes it easy for everyone to see regardless of device.
 The headers on all pages throughout the Website are using the Montserrat font while the main text is using the Source San Pro font.
 I choose these fonts because i thought they were a good match along with the black-on-white stylish colour scheme. 
 
+### Imagery
 
+Images were choosen to be inclusive and show of a varity of different people to inhance that padel is a sport for everyone. 
+Size and placement may vary depeding on image and intendend devices displayed on. 
 
 
 ## Features
@@ -36,9 +39,35 @@ I choose these fonts because i thought they were a good match along with the bla
 * Navigation
     * Positioned at top right of the page. 
     * Displays links to the About us and Times sections and to the Contact Page.
+    [Screenhot]
 
 * Header
     * Positioned at the top left of the page.
     * Clearly states the name. 
+    [Screenhot]
 
+* About Us Section
+    * Contains a short description about the club. Such as location and purpose. 
+    * Contains a padel related image of a women and a man.
+    * Contains a short list of some core values for the club.
+    [Screenhot]
 
+* When and Where Section
+    * Referred to as "Times"-section in the navigation for user design friendlyness.
+    * Contains a image of a group of kids and a textbox with some information regarding 
+    what the club has to offer for kids. 
+    * Contains times and information regarding times, location, courts etc.
+    [Screenhot]
+
+* Contact Page
+    * Takes the user to a new page. 
+    * Contains a form where the user can interact, filling in his/her information and choose
+    how to the contacted back. 
+    * Contains navigation to get back to 'main page'.
+    [Screenhot]
+
+* Footer
+    * Contains links to Facebook, Twitter and Instagram. 
+    * Since it's not a real padel club the links only takes the user to the main page of the websites mentioned above.
+    * Contains a paragraf stating copyrights. 
+    [Screenhot]
