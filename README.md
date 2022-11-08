@@ -6,6 +6,8 @@
  The choice for a Padel Club were actually random and the idea was to create a 'here we are, come join us'-type of page. 
  Padel has become a very popular sport in a very short time and with this page i wanted to stress that everyone can enjoy padel 
  and everyone should try it out.<br>Users of this website is meant be inspired to seek more information and/or sign up on the contact page. 
+<br>
+<img src="./assets/images/readme.md/amiresponsive.png" width="50%">
 <hr>
 
 ## Technologies Used
