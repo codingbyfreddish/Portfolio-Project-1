@@ -31,27 +31,27 @@ body {
     text-decoration: underline;
 }
 
-.header-navbar {
+.navbar {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 1.5rem;
     list-style: none;
 }
 
-.header-navbar li {
+.navbar li {
     font-size: 120%;
     color: #252525;
     flex: 1 1 0;
     padding: 0 1rem;
 }
 
-.header-navbar a {
+.navbar a {
     text-decoration: none;
     color: inherit;
 }
 
-.header-navbar a:hover {
+.navbar a:hover {
     border-bottom: 1px solid #252525;
 }
 
@@ -241,6 +241,7 @@ footer div > p {
     text-align: center;
 }
 
+
 /* media queries */
 
 /* for a max width of 1200px (desktop) */
@@ -250,14 +251,12 @@ footer div > p {
     }
 }
 
-
 /* for a max width of 992px (laptops) */
 @media screen and (max-width: 992px) {
-    .hero-image {
-        margin: 0 auto;
-        padding: 0;  
+    .navbar li {
+        padding: 1.2rem;
     }
-
+    
     .about-container {
         flex-direction: column;
         justify-content: space-between;
@@ -276,15 +275,14 @@ footer div > p {
 
 /* for a max width of 768px (tablets) */
 @media screen and (max-width: 768px) {
-    .hero-container {
-        background: url('../images/');
+    .navbar {
+        flex-direction: column;
     }
 }
 
-
 /* for a max width of 576px (mobile) */
 @media screen and (max-width: 576px) {
-   .hero-container {
+    .hero-container {
         min-height: 40rem;
         margin: 0 auto;
     } 
