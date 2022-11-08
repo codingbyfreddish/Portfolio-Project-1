@@ -39,8 +39,8 @@ Size and placement may vary depeding on image and intendend devices displayed on
 * #### Navigation
     * Positioned at top right of the page. 
     * Displays links to the About us and Times sections and to the Contact Page.
-    [Screenhot]
-
+    * On the Contact Page, the nav bar got a white background to be more readable.
+    <img src="./assets/images/readme.md/navbar.png"width="70%">
 * #### Header
     * Positioned at the top left of the page.
     * Clearly states the name. 
