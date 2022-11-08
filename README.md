@@ -26,7 +26,7 @@ that makes it easy for everyone to see regardless of device.
 ### Typography
 
 The headers on all pages throughout the Website are using the Montserrat font while the main text is using the Source San Pro font.
-I choose these fonts because i thought they were a good match along with the black-on-white stylish colour scheme. 
+I choose these fonts because they were a good match along with the black-on-white stylish colour scheme. 
 
 ### Imagery
 
@@ -75,7 +75,7 @@ Size and placement may vary depeding on image and intendend devices displayed on
 
 ## Testing
 
-* Tested on three diffrent browsers: Explorer, Chrome and Firefox. 
+* Tested on three diffrent browsers: Edge, Chrome and Firefox. 
 * Checked responsiveness (using dev tools) on Desktops, Laptops, Tablets and Mobile. 
 * Checked that the form works, validating it thorugh Code Institutes 'formdump' page.
 
