@@ -40,7 +40,7 @@ body {
 }
 
 .navbar li {
-    font-size: 120%;
+    font-size: 135%;
     color: #252525;
     flex: 1 1 0;
     padding: 0 1rem;
@@ -89,14 +89,14 @@ body {
     text-decoration: underline;
     color: #252525;
 }
-
+    
 .about-container {
     min-height: 80vh;
     margin: 6rem 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
 }
     
 .about-sides {
@@ -104,7 +104,7 @@ body {
     padding: 4rem 2rem;
     min-height: 20rem;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: normal;
     line-height: 2.8rem;
 }
@@ -246,6 +246,10 @@ footer div > p {
 
 /* for a max width of 1200px (desktop) */
 @media screen and (max-width: 1200px) {
+    .navbar li {
+        font-size: 120%;
+    }
+
     .hero-container {
         min-height: 45rem;
     }
@@ -295,7 +299,7 @@ footer div > p {
 
 .about-sides {
     margin: 2rem auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: normal;
     line-height: 2.8rem;
     }
