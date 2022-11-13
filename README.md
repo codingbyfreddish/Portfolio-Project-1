@@ -39,6 +39,12 @@ Size and placement may vary depeding on image and intendend devices displayed on
 
 ## Features
 
+* ### Favicon
+    * Displayed on the tab. 
+    * PC stands for Padel Club. 
+    <br>
+<img src="./assets/images/readme.md/favicon.png" width="50%">
+
 * #### Navigation
     * Positioned at top right of the page. 
     * Displays links to the About us and Times sections and to the Contact Page.
@@ -53,7 +59,7 @@ Size and placement may vary depeding on image and intendend devices displayed on
     <img src="./assets/images/readme.md/logo.png" width="40%">
     
 * #### About Us Section
-    * Contains a short description about the club. Such as location and purpose. 
+    * Contains a short description about the club. 
     * Contains a padel related image of a women and a man.
     * Contains a short list of some core values for the club.
     <br>
@@ -87,9 +93,10 @@ Size and placement may vary depeding on image and intendend devices displayed on
 
 ## Testing
 
-* Tested on three diffrent browsers: Edge, Chrome and Firefox. 
+* Tested on three diffrent browsers: Edge, Chrome, Safari and Firefox. 
 * Checked responsiveness (using dev tools) on Desktops, Laptops, Tablets and Mobile. 
 * Checked that the form works, validating it thorugh Code Institutes 'formdump' page.
+    * Filled in first name, last name, emailaddress, phonenumber and all three radiobuttons.
 
 ### Validator Testing
 
@@ -132,6 +139,7 @@ Size and placement may vary depeding on image and intendend devices displayed on
 * [Stack Overflow](https://stackoverflow.com/) for various things along the project.
 * [Font Awesome](https://fontawesome.com) is used for all the icons.
 * [Google Fonts](https://googlefonts.com) is used for the text fonts. 
+* [Favicon](https://favicon.io/) is used for the tab icon.
 * Text from the About Us/Who are we section are translated from [Vamos Padel Club](https://vamospadelclub.se/om-hallen-och-vamos-padel-club/)
 
 ### Media
